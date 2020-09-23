@@ -1,4 +1,4 @@
-@charset UTF-8;
+﻿@charset UTF-8;
 @import url(http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en);
 
 
@@ -70,7 +70,7 @@ a:active
 	width: 60%; 
 	background-color: #fff; 
 	margin: auto; 
-	margin-top: 15%; 
+	margin-top: 1%; 
 	position: relative; 
 	padding: 50px;
     border-top-left-radius: 2px;
@@ -112,6 +112,40 @@ a:active
 	-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 5px 12px 0;
 	-moz-box-shadow:rgba(0, 0, 0, 0.3) 0 5px 12px 0;
 }
+
+.content-menu {
+    width: 60%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    padding: 10px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+}
+
+    .content-menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        .content-menu ul li {
+            float: left;
+            width: 33.33%;
+            text-align: center;
+        }
+
+            .content-menu ul li a {
+                display: inline-block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
 
 .content-works
 {
@@ -172,6 +206,12 @@ a:active
 	flex-wrap: wrap
 }
 
+.icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 3em;
+}
+
 .appicon
 {
 	width: 152px;
@@ -182,7 +222,6 @@ a:active
 
 .details-icon
 {
-	color: #555;
 	width: 1.4em;
 	height: 1.4em;
 	margin-right: 3em;
@@ -239,12 +278,12 @@ a:active
     top: 0; 
     right: 0;
     display: -ms-flexbox;
-    display: -webkit-flex;
+    display: -webkit-flex; 
     display: flex; 
     aliign-items: flex-end;
     -webkit-align-items: flex-end;
     justify-content: center;
-    -webkit-justify-content: center;
+    -webkit-justify-content: center; 
 }
        	
 .desktop-fab
